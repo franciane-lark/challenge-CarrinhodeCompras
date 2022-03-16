@@ -4,16 +4,28 @@ const app = {
             name: 'Franciane',
             lastName: 'Lark',
             product1:{
-                title: 'Laranja 1',
-                description: 'Nutritiva',
-                image: './assets/images/maçã-1.jpg',
-                stars: 3,
+                title: 'Trufa',
+                description: 'Trufa de morango 1',
+                image: './assets/images/trufa-1.jpg',
+                stars: 1,
             },
             product2:{
-                title: 'Maçã 2',
-                description: 'Nutritiva (2)',
-                image: './assets/images/maçã-2.jpg',
-                stars: 0,
+                title: 'Trufa',
+                description: 'Trufa de morango 2',
+                image: './assets/images/trufa-2.jpg',
+                stars: 2,
+            },
+            product3:{
+                title: 'Trufa',
+                description: 'Trufa de morango 3',
+                image: './assets/images/trufa-3.jpg',
+                stars: 3,
+            },
+            product4:{
+                title: 'Trufa',
+                description: 'Trufa de morango 4',
+                image: './assets/images/trufa-3.jpg',
+                stars: 4,
             }
         }
     }

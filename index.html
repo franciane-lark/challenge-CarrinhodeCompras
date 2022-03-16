@@ -4,19 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste Vue</title>
+    <title>Challenge in Vue JS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="app">
-        <h1>Carrinho de compras frutas</h1>
+        <h1>Meu Carrinho</h1>
         <p>{{ name }} {{ lastName }}</p>
 
         <img :src="product1.image" :alt="product1.title" style="max-width: 100px;">
+        <h4>Trufa de morango</h4>
+        <h6>R$ 1,23</h6>
+        <h5>R$ 1,11</h5>
         
         <img :src="product2.image" :alt="product2.title" style="max-width: 100px;">
+        <h4>Trufa de morango</h4>
+        <h6>R$ 1,23</h6>
+        <h5>R$ 1,11</h5>
+        
+        <img :src="product3.image" :alt="product2.title" style="max-width: 100px;">
+        <h4>Trufa de morango</h4>
+        <h6>R$ 1,23</h6>
+        <h5>R$ 1,11</h5>
 
+        <img :src="product4.image" :alt="product2.title" style="max-width: 100px;">
+        <h4>Trufa de morango</h4>
+        <h6>R$ 1,23</h6>
+        <h5>R$ 1,11</h5>
+
+        <p>Total R$ 9,55</p>
+        <button>Finalizar Compra</button>
     </div>
-
     <script src="https://unpkg.com/vue@next"></script>
     <script src="./app.js"></script>
 </body>
